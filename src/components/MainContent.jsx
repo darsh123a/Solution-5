@@ -15,7 +15,7 @@ const MainContent = () => {
       </div>
 
       {/* Right section */}
-      <div className="text-white w-full lg:w-auto">
+      <div className="text-white w-full lg:w-auto h-[350px]">
         <HourlyForecast />
       </div>
     </div>

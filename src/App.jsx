@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="w-full h-auto bg-[#0B0D27]">
-        <div className="w-full sm:w-[85%] md:w-[70%] lg:w-[55%] mx-auto py-10 sm:py-16 lg:py-20">
+        <div className="w-full sm:w-[85%] md:w-[70%] lg:w-[65%] mx-auto py-10 sm:py-16 lg:py-20">
           <Header />
           <Main />
           <MainContent />
