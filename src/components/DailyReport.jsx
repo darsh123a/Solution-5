@@ -17,7 +17,7 @@ const DailyReport = () => {
       <h1 className="text-white text-lg sm:text-xl font-semibold mb-4">
         Daily Forecast
       </h1>
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap gap-3 lg:gap-10">
         {dailyData.map((item, index) => (
           <DailyReportCard
             key={index}
