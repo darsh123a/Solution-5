@@ -1,7 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import { WeatherContext } from "../components/WeatherContext";
-import { weatherIconMap } from "../utils/Weathericons";
-
+import { weatherIconMap } from "../utils/weatherIcons";
 const HourlyForecast = () => {
   const { weather } = useContext(WeatherContext);
 
